@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+section.secciona {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: right;
+}
+
+.logo {
+    width: 40%;
+    height: 60px;
+    color: #2C4CCA;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+.menu {
+    width: 40%;
+    height: 60px;
+    color: #65748D;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+}
+
+.boton {
+    background-color: #3353D1;
+    width: 11%;
+    height: 50px;
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 5px rgba(187, 202, 239, 0.2);
+
+}
+
+a[href="textoa"] {
+    color: #65748D;
+    font-size: 22px;
+    padding: 10px 0px 0px 45px;
+    font-weight: bold;
+}
+
+a[href="textob"] {
+    color: white;
+    font-size: 22px;
+    padding: 10px 0px 0px 20px;
+}
+
+section.seccionb {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+.partea {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.parteb {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+.partec {
+    background-color: rgb(170, 99, 8);
+    width: 100px;
+    height: 100px;
+}
+
+.parted {
+    background-color: rgb(18, 118, 219);
+    width: 100px;
+    height: 100px;
+}
+
+.partee {
+    background-color: rgb(9, 143, 38);
+    width: 100px;
+    height: 100px;
+}
+
+img[src="/img/one.jpg"] {
+}
